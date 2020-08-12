@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+  color:black;
+}
+.bg{
+  background: url(https://i.ytimg.com/vi/Zqq7cPxg_Yc/maxresdefault.jpg);
+  background-size: cover;
+  height:100%;
+  width:100%;
+  opacity:0.8;
+}
+.login>h1{
+  margin:20px 20px;
+}
+.login{
+  background: rgba(225,165,0,0.8);
+  width:400px;
+  padding:40px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-align:center;
+  border-top-left-radius:100px;
+  border-bottom-right-radius:100px;
+}
+.login input[type="text"],.login[type="password"]{
+  display:block;
+  padding:10px 10px;
+  margin:20px auto;
+  width:250px;
+  background: none;
+  border:2px solid black;
+  border-radius:15px;
+  transition:0.8s;
+}
+.login input[type="text"]:focus,.login input[type="password"]:focus{
+  border-left:40px solid black;
+}
+.login input[type="button"]{
+  background:none;
+  padding:10px 10px;
+  margin:10px 10px;
+  width:100px;
+  border:2px solid black;
+  border-radius:15px;
+  transition:0.8s;
+}
+.login input[type="button"]:hover{
+  background-color: black;
+  color:orange;
+}
